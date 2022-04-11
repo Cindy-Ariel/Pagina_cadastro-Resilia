@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&family=Poppins&family=Varela+Round&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+body{
+    flex-direction:column;
+    display: flex;
+    width: 100vw;
+    height:100vh;
+    justify-content: space-around;
+    align-items: center;
+    background:linear-gradient( #0B0B0B 0%, #FFD002 500%) 
+}
+
+.container{
+
+width: 500px;
+height:500px;
+background: #fff;
+padding: 25px 30px;
+border-radius: 10px;
+
+
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    margin: 30px 50px;
+
+}
+ 
+form .input-box{
+    margin-bottom: 10px;
+}
+ 
+.input-box{
+    display: flex;
+    margin-bottom: 20px; 
+    flex-wrap: wrap;
+
+}
+
+input {
+    height:45px;
+    width:100%;
+}
+
+button {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height:45px;
+    width:100%;
+    background:#FFD002;
+    box-shadow: 40px;
+}
+img{
+   background:#0B0B0B
+}
